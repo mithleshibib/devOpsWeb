@@ -1,0 +1,10 @@
+[safe]
+	directory = E:/iot with aws/iot with aws/test/ProjectEstimator/ProjEstimatorApp
+[user]
+	email = mithleshibib@gmail.com
+	name = mithleshibib
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
